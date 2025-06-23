@@ -11,3 +11,7 @@ En este caso la **hipótesis** que desarrollamos en torno al data set **"Anexo.c
 
 **Conclusiones generales:**
 - Los modelos evaluados muestran un rendimiento consistente, con precisiones cercanas al 68%. Random Forest, Regresión Logística y SVM se destacan como los más confiables. Aunque el Árbol de Decisión tuvo menor precisión, permite una visualización clara de las decisiones. En general, es posible predecir la supervivencia del jugador con un nivel razonable de acierto utilizando solo sus estadísticas de combate y equipamiento inicial.
+
+Para arrancar y visualizar los datos del entrenamiento, abrir proyecto en con visual studio code y mediante terminal ejecutar
+
+uvicorn main:app --reload
